@@ -2470,7 +2470,6 @@ p {
       .slider-content .title {
          color: white;
         font-size: 100px;
-        border: 1px solid;
         text-align: left;
         width: 100%; } 
         .slider-content .text {
@@ -2495,7 +2494,6 @@ p {
         width:80vw ; 
       color: white;
       padding-right: 50px;
-      border: 1px solid;
     text-align: left;}
         .slider-content .text {
               text-align: right;
