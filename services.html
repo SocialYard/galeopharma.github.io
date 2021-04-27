@@ -1,0 +1,286 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>Galeo Pharma</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link  href="Galeo_logo.png" type="image/png">
+    <link href="Galeo_logo.png" rel="icon">
+        
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+        
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+
+    <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/8905/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
+</head>
+
+<body>
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+    
+    <!--====== NAVBAR TWO PART START ======-->
+
+    <section class="navbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                       
+                        <a class="navbar-brand" href="#">
+                            <img src="Galeo_logo.png" alt="logo">
+                        </a>
+                        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item"><a class="page-scroll" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="about.html">About us</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="expertiseIndex.html">Our Expertise</a></li>
+                                <li class="nav-item active"><a class="page-scroll" href="services.html">Products &amp; Services</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="contacts.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="navbar-btn d-none d-sm-inline-block">
+                            <ul>
+                                <li><a class="solid" href="mailto:bd@galeopharma.com">Email us</a></li>
+                            </ul>
+                        </div>
+                    </nav> 
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!--====== NAVBAR TWO PART ENDS ======-->
+    
+    <!--====== PRODUCTS_AND_SERVICES START ======-->
+
+    <section id="services" class="features-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center pb-10">
+                        <h3 class="title">Products &amp; Services</h3>
+                        <p class="text">The U.A.E. healthcare sector is expanding rapidly to meet both the evolving needs of a growing population and the nation’s ambition to become a regional medical tourism hub.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-features mt-40">
+                        <div class="features-title-icon d-flex justify-content-between">
+                            <h4 class="features-title"><a href="pharmaceuitical_products.html">Pharmaceutical products</a></h4>
+                           
+                        </div>
+                        <div class="features-content">
+                            <p class="text">We provide complete end-to-end solutions for Pharmaceutical products.</p>
+                            <br>
+                            <br>
+                            <br>
+                            <a class="features-btn" href="pharmaceuitical_products.html">KNOW MORE</a>
+                            <br>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-features mt-40">
+                        <div class="features-title-icon d-flex justify-content-between">
+                            <h4 class="features-title"><a href="consumer_products.html">Consumer healthcare products</a></h4>
+                            
+                        </div>
+                        <div class="features-content">
+                            <p class="text">We have rich experience in managing nutritional, wellness and other consumer products through Pharmacies and other retail chains.</p>
+                            <br>
+                            <br>
+                            <a class="features-btn" href="consumer_products.html">KNOW MORE</a>
+                        
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-features mt-40">
+                        <div class="features-title-icon d-flex justify-content-between">
+                            <h4 class="features-title"><a href="medical_equipments.html">Surgical &amp; medical equipments</a></h4>
+                            
+                        </div>
+                        <div class="features-content">
+                            <p class="text">We are currently partnered with various manufacturers for specialized medical equipments and consumables.
+                            </p>
+                            <br>
+                            <br>
+                            <a class="features-btn" href="medical_equipments.html">KNOW MORE</a>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+        </div> 
+
+        
+    </section>
+
+    <!--====== PRODUCTS_AND_SERVICES ENDS ======-->
+    
+    <!--====== FOOTER PART START ======-->
+
+    <section class="footer-area footer-dark">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="footer-logo text-center">
+                        <a class="mt-30" href="index.html"><img src="Galeo_logo.png" alt="Logo"></a>
+                    </div> <!-- footer logo -->
+                    <ul class="social text-center mt-60">
+                        <li><a href="https://www.facebook.com/Galeo-Pharma-108489424720050"><i class="lni lni-facebook-filled"></i></a></li>
+                        <!-- <li><a href="https://twitter.com"><i class="lni lni-twitter-original"></i></a></li> -->
+                        <li><a href="https://www.instagram.com/galeopharma/"><i class="lni lni-instagram-original"></i></a></li>
+                        <!-- <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li> -->
+                    </ul>
+                    <div class="footer-support text-center">
+                        <span class="number">+971-50-3552043</span>
+                        <span class="mail">bd@galeopharma.com</span>
+                    </div>
+                    <div class="copyright text-center mt-35">
+                        <p class="text"><span style="padding-bottom: 30px;">&copy; Galeo Pharma. All rights reserved.</span> <br>Developed by <a href="https://thesocialyard.in/" rel="nofollow">The Social Yard</a></p>
+                    </div> <!--  copyright -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== FOOTER PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->    
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    
+    
+    <!--====== Isotope js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbwQs4fEppdXN1Gcol58Rk3jNBD9NcH8Auf6wgFMPF3l46z0Ou9NCgWYO8kzNNXfQmwooQ/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("We have recieved your message. We will reach out to you ASAP!")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("There has been an error processing your request! Please try again.")
+    
+                }
+            })
+        })
+    </script>
+    
+</body>
+
+</html>

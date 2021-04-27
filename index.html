@@ -1,0 +1,354 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>Galeo Pharma</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link  href="Galeo_logo.png" type="image/png">
+    <link href="Galeo_logo.png" rel="icon">
+        
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+        
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="//db.onlinewebfonts.com/c/93a467f70a3e7b27a9b52a686f351dbe?family=DINNextLTPro-Regular" rel="stylesheet" type="text/css"/>
+    
+
+    <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/8905/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
+     
+    <style>
+        .navbar-area .navbar .navbar-btn li a.solid { 
+            background-color: transparent;
+            border-color: #fff;
+            color: #fff; }
+        .navbar-area .navbar .navbar-nav .nav-item a {
+        font-size: 16px;
+            line-height: 24px;
+            font-weight: 700;
+            padding: 26px 0;
+            color: #000;
+            text-transform: uppercase;
+            position: relative;
+            opacity: 0.8;
+            -webkit-transition: all 0.3s ease-out 0s;
+            -moz-transition: all 0.3s ease-out 0s;
+            -ms-transition: all 0.3s ease-out 0s;
+            -o-transition: all 0.3s ease-out 0s;
+            transition: all 0.3s ease-out 0s; }
+            .icon-bar {
+            position: fixed;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            }
+
+            .icon-bar{
+                position: absolute;
+                right: 0px;
+            }
+            .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 20px;
+            min-height: 62px;
+            }
+
+            .icon-bar a:hover {
+            background-color: #000;
+            }
+
+            .facebook {
+            background: #3B5998;
+            color: white;
+            }
+
+            .instagram {
+            background: #55ACEE;
+            color: white;
+            }
+
+            .google {
+            background: #dd4b39;
+            color: white;
+            }
+
+            .linkedin {
+            background: #007bb5;
+            color: white;
+            }
+
+            .whatsapp {
+            background: #57ba63;
+            color: white;
+            }
+
+            .content {
+            margin-left: 75px;
+            font-size: 30px;
+            }
+            @font-face {
+                font-family: "myFont";
+                src: url("DINBlack.ttf");
+                font-weight: 200;
+}
+            .title{
+                font-family: myfont;
+            }
+            .text{
+                font-family: myfont;
+            }
+    </style>
+</head>
+
+<body>
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+    
+    <!--====== NAVBAR TWO PART START ======-->
+
+    <section class="navbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                       
+                        <a class="navbar-brand" href="#">
+                            <img src="Galeo_logo.png" alt="logo">
+                        </a>
+                        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item active"><a class="page-scroll" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="about.html">About us</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="expertiseIndex.html">Our Expertise</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="services.html">Products &amp; Services</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="contacts.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="navbar-btn d-none d-sm-inline-block">
+                            <ul>
+                                <li><a class="solid" href="mailto:bd@galeopharma.com">Email us</a></li>
+                            </ul>
+                        </div>
+                    </nav> 
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!--====== NAVBAR TWO PART ENDS ======-->
+    
+    <!--====== SLIDER PART START ======-->
+
+    <section id="home" class="slider_area">
+          
+            <div class="carousel-inner">    
+                <div class="carousel-item active">
+                    <div class="icon-bar">
+                        <a href="https://www.facebook.com/Galeo-Pharma-108489424720050" class="facebook"><i class="fa fa-facebook"></i></a> 
+                        <a href="https://www.instagram.com/galeopharma/" class="instagram"><i class="fa fa-instagram"></i></a> 
+                        <!-- <a href="#" class="google"><i class="fa fa-google"></i></a>  -->
+                        <!-- <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
+                        <a href="https://api.whatsapp.com/send?phone=971503552043" class="whatsapp"><img style=" z-index: 999; height: 29.6px;" src="whatsapp.png" alt=""></a> 
+                      </div>
+                    <div class="container" style="min-height: 100vh;">
+                        
+                        <div class="row">
+                            <div class="col-lg-12" style="z-index: 0; height: 15vh;">
+                                <div class="slider-content" style="float: left;">
+                                    <h1 class="title" style="@font-face{
+                                        font-family: 'DIN-REGULAR';
+                                        src: url(fonts/DINNextLTPro-Regular.otf);
+                                        font-style: normal;
+                                      } font-family: DIN-REGULAR;">GALEO PHARMA</h1>
+                                    <p class="text" style="@font-face{
+                                        font-family: 'DIN-BLACK';
+                                        src: url(fonts/DINBlack.ttf);
+                                        font-style: normal;
+                                      } font-family: DIN-BLACK;">YOUR TRUST, OUR ACHIEVEMENT</p>
+                                <!--1q<ul class="slider-btn rounded-buttons" style="padding-bottom: 50px;">
+                                        <li><a class="main-btn rounded-one page-scroll" href="#about">Learn more.</a></li>
+                                        <li><a class="main-btn rounded-one page-scroll" href="#form">Have an Enquiry?</a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="floating slider-image-box d-none d-lg-flex align-items-end" >
+                        <div class="slider-image" >
+                           <img src="2d.png" alt="slide"  >
+                            <img src="2d4.png" alt="slide">
+                        </div>
+                    </div> -->
+                </div>
+    </section>
+
+    <!--====== SLIDER PART ENDS ======-->
+    
+    <!--====== FOOTER PART START ======-->
+
+    <section class="footer-area footer-dark">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="footer-logo text-center">
+                        <a class="mt-30" href="index.html"><img src="Galeo_logo.png" alt="Logo"></a>
+                    </div> <!-- footer logo -->
+                    <ul class="social text-center mt-60">
+                        <li><a href="https://www.facebook.com/Galeo-Pharma-108489424720050"><i class="lni lni-facebook-filled"></i></a></li>
+                        <!-- <li><a href="https://twitter.com"><i class="lni lni-twitter-original"></i></a></li> -->
+                        <li><a href="https://www.instagram.com/galeopharma/"><i class="lni lni-instagram-original"></i></a></li>
+                        <!-- <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li> -->
+                    </ul>
+                    <div class="footer-support text-center">
+                        <span class="number">+971-50-3552043</span>
+                        <span class="mail">bd@galeopharma.com</span>
+                    </div>
+                    <div class="copyright text-center mt-35">
+                        <p class="text"><span style="padding-bottom: 30px;">&copy; Galeo Pharma. All rights reserved.</span> <br>Developed by <a href="https://thesocialyard.in/" rel="nofollow">The Social Yard</a></p>
+                    </div> <!--  copyright -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== FOOTER PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+    <!--Div where the WhatsApp will be rendered-->  
+    
+
+
+    <!--====== BACK TOP TOP PART ENDS ======-->    
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    
+    
+    <!--====== Isotope js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbwQs4fEppdXN1Gcol58Rk3jNBD9NcH8Auf6wgFMPF3l46z0Ou9NCgWYO8kzNNXfQmwooQ/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("We have recieved your message. We will reach out to you ASAP!")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("There has been an error processing your request! Please try again.")
+    
+                }
+            })
+        })
+    </script>
+    
+</body>
+
+</html>
