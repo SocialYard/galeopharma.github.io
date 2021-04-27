@@ -2363,7 +2363,7 @@ p {
     position: absolute;
     content: '';
     width: 61%;
-    height: 100%;
+    min-height: fit-content;
     background: -webkit-linear-gradient(rgba(223, 221, 221, 0.877) 0%, rgba(118, 189, 218, 0.938) 100%);
     background: -o-linear-gradient(rgba(255, 255, 255, 0.952) 0%, rgba(30, 167, 226, 0.918) 100%);
     background: linear-gradient(rgb(133, 216, 241) 0%, rgba(70, 184, 233, 0.918) 100%);
@@ -2410,13 +2410,12 @@ p {
     .slider-content {
       margin-top: 150px;
       min-height: 100vh;
-      max-height: 100vh;
            }
   .slider-content .title {
     position: absolute;
     top: 120px;
     font-size: 60px;
-    color: red;
+    color: white;
     font-weight: 700;
     width: 100%;
     }
