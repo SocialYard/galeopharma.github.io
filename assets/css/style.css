@@ -2616,7 +2616,7 @@ p {
   height: 48px;
   line-height: 48px;
   text-align: center;
- 
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 5px; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .carousel .carousel-control-prev, .carousel .carousel-control-next {
