@@ -2416,14 +2416,14 @@ p {
     position: absolute;
     top: 120px;
     font-size: 60px;
-    color: white;
+    color: red;
     font-weight: 700;
     width: 100%;
     }
     .slider-content .text {
       color: black;
       font-size: 15px;
-      margin-top: 16px;
+      margin-top: 25px;
     font-weight: 600; }}
   /* font-size: 20px; padding-top: 0;position: relative; top: -50px; padding-left: 318px; width: 200%; color: blue; */
   /* padding-left: 315px; width: 123%; font-size: 19px; line-height: 30px; color: rgb(0, 72, 206); position: relative; top: -20px; font-family: 'Montserrat', sans-serif; */
