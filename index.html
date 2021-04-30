@@ -142,19 +142,6 @@
             margin-left: 75px;
             font-size: 30px;
             }
-            @font-face {
-                font-family: "myFont";
-                src: url("DINBlack.ttf");
-                font-weight: 1;
-}
-            .title{
-                font-family: myfont;
-                font-weight: lighter;
-
-            }
-            .text{
-                font-family: myfont;
-            }
     </style>
 </head>
 
@@ -230,8 +217,6 @@
                     <div class="icon-bar">
                         <a href="https://www.facebook.com/Galeo-Pharma-108489424720050" class="facebook"><i class="fa fa-facebook"></i></a> 
                         <a href="https://www.instagram.com/galeopharma/" class="instagram"><i class="fa fa-instagram"></i></a> 
-                        <!-- <a href="#" class="google"><i class="fa fa-google"></i></a>  -->
-                        <!-- <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
                         <a href="https://api.whatsapp.com/send?phone=971503552043" class="whatsapp"><img style=" z-index: 999; height: 29.6px;" src="whatsapp.png" alt=""></a> 
                       </div>
                     <div class="container" style="min-height: 100vh;">
@@ -241,25 +226,12 @@
                                 <div class="slider-content" style="float: left;">
                                     <h1 class="title" style="font-family: 'Barlow', sans-serif;
                                     font-family: 'Barlow Semi Condensed', sans-serif;   ">GALEO PHARMA</h1>
-                                    <p class="text" style="@font-face{
-                                        font-family: 'DIN-BLACK';
-                                        src: url(fonts/DINBlack.ttf);
-                                        font-style: normal;
-                                      } font-family: DIN-BLACK;">YOUR TRUST, OUR ACHIEVEMENT</p>
-                                <!--1q<ul class="slider-btn rounded-buttons" style="padding-bottom: 50px;">
-                                        <li><a class="main-btn rounded-one page-scroll" href="#about">Learn more.</a></li>
-                                        <li><a class="main-btn rounded-one page-scroll" href="#form">Have an Enquiry?</a></li>
-                                    </ul> -->
+                                    <p class="text" style="    font-family: 'Roboto Condensed', sans-serif;
+                                    ">YOUR TRUST, OUR ACHIEVEMENT</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="floating slider-image-box d-none d-lg-flex align-items-end" >
-                        <div class="slider-image" >
-                           <img src="2d.png" alt="slide"  >
-                            <img src="2d4.png" alt="slide">
-                        </div>
-                    </div> -->
                 </div>
     </section>
 
@@ -276,9 +248,7 @@
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://www.facebook.com/Galeo-Pharma-108489424720050"><i class="lni lni-facebook-filled"></i></a></li>
-                        <!-- <li><a href="https://twitter.com"><i class="lni lni-twitter-original"></i></a></li> -->
                         <li><a href="https://www.instagram.com/galeopharma/"><i class="lni lni-instagram-original"></i></a></li>
-                        <!-- <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li> -->
                     </ul>
                     <div class="footer-support text-center">
                         <span class="number">+971-50-3552043</span>
@@ -297,10 +267,7 @@
     <!--====== BACK TOP TOP PART START ======-->
 
     <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
-    <!--Div where the WhatsApp will be rendered-->  
     
-
-
     <!--====== BACK TOP TOP PART ENDS ======-->    
 
     <!--====== Jquery js ======-->
@@ -340,7 +307,6 @@
                 success:function (response){
                     alert("We have recieved your message. We will reach out to you ASAP!")
                     window.location.reload()
-                    //window.location.href="https://google.com"
                 },
                 error:function (err){
                     alert("There has been an error processing your request! Please try again.")
